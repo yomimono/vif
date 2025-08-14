@@ -10,8 +10,8 @@ Vif is a small program that runs an OCaml script and launches a Web server from
 it. The main idea is to be able to set up a typed Web server as quickly as
 possible (note that we use [hurl][hurl], an HTTP client in OCaml)
 ```ocaml
-$ opam pin add -y https://github.com/robur-coop/vif
-$ opam pin add -y https://github.com/robur-coop/hurl
+$ opam pin add -y https://github.com/robur-coop/vif.git
+$ opam pin add -y https://github.com/robur-coop/hurl.git
 $ opam install vif hurl
 $ cat >main.ml <<EOF
 #require "vif" ;;
